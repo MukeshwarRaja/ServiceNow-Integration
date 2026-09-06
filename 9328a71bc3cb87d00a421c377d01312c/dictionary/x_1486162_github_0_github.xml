@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="116f281a19bd40eb9adf4d4dba663002" label="GitHub" name="x_1486162_github_0_github" type="collection">
+        <element label="File Name" mandatory="true" max_length="255" name="file_name" type="string"/>
+        <element default="open" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="closed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="open"/>
+            </choice>
+        </element>
+    </element>
+</database>
