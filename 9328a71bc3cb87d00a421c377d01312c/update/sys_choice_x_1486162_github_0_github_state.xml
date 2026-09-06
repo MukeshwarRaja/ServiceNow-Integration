@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" field="state" table="x_1486162_github_0_github" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>8a06e67080f744ae98a47d6f31dadb6b</sys_id>
+      <element>state</element>
+      <name>x_1486162_github_0_github</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_1486162_github_0">9328a71bc3cb87d00a421c377d01312c</sys_scope>
+      <sys_package display_value="x_1486162_github_0" source="9328a71bc3cb87d00a421c377d01312c">9328a71bc3cb87d00a421c377d01312c</sys_package>
+      <sys_update_name>sys_choice_x_1486162_github_0_github_state</sys_update_name>
+      <sys_name>state</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>b2de487569ce4b3ab3eae2b970601a9e</sys_id>
+      <name>x_1486162_github_0_github</name>
+      <element>state</element>
+      <label>Open</label>
+      <value>open</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>33ca3fc4d4fb4f79a66433f8f9f5ccb1</sys_id>
+      <name>x_1486162_github_0_github</name>
+      <element>state</element>
+      <label>In Progress</label>
+      <value>in_progress</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>2b20f0c0afe8471184fa14d6e5e2de87</sys_id>
+      <name>x_1486162_github_0_github</name>
+      <element>state</element>
+      <label>Closed</label>
+      <value>closed</value>
+      <sequence>3</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>
